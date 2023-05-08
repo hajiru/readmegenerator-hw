@@ -37,9 +37,7 @@ ${renderLicenseBadge(data.license)}
 
 To install necessary dependencies, run the following command inside your terminal
 
-\`\`\`bash
 ${data.installation}
-\`\`\`
 
 ## Usage
 
@@ -57,9 +55,7 @@ ${data.contribution}
 
 To run test you can run this command in the terminal
 
-\`\`\`bash
 ${data.tests}
-\`\`\`
 
 ## Questions
 
