@@ -22,6 +22,8 @@ To install necessary dependencies, run the following command inside your termina
 
 Type npm i into your terminal to install dependencies
 
+You can view how to use it <a href="https://drive.google.com/file/d/13_M4xeaFjpJ0JnUEcg1D8TnltJFUKLf6/view">here</a>!
+
 ## Usage
 
 Uses inquirer
