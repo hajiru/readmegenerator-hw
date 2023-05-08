@@ -81,7 +81,7 @@ async function init() {
   const data = await inquirer.prompt(questions);
   console.log(data.license)
   const markDown = generateMark.generateMarkdown(data);
-  writeToFile('README.md', markdown);
+  writeToFile('README.md', markDown);
 }
 
 // Function call to initialize app
