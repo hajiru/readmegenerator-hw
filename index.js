@@ -22,7 +22,7 @@ const questions = [
   {
     // Install Instructions
     type: 'input',
-    name: 'install',
+    name: 'installation',
     message: 'What are the install procedures for you project?'
   },
   {
@@ -40,7 +40,7 @@ const questions = [
   {
     // Testing
     type: 'input',
-    name: 'test',
+    name: 'tests',
     message: 'How would you test your project?'
   },
   {
