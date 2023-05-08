@@ -80,7 +80,7 @@ function writeToFile(fileName, data) {
 async function init() {
   const data = await inquirer.prompt(questions);
   console.log(data.license)
-  const markDown = generateMark.generatedMarkdown(data);
+  const markDown = generateMark.generateMarkdown(data);
   writeToFile('README.md', markdown);
 }
 
