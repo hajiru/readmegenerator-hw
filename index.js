@@ -2,6 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Required functions from generateMarkdown.js file
+const generateMark = require('./js/generateMarkdown')
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -77,7 +80,7 @@ function writeToFile(fileName, data) {
 async function init() {
   const data = await inquirer.prompt(questions);
   console.log(data.license)
-  const markDown = genMark.generatedMarkdown(data);
+  const markDown = generateMark.generatedMarkdown(data);
   writeToFile('README.md', markdown);
 }
 
