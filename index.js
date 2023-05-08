@@ -29,7 +29,7 @@ const questions = [
     // Usage
     type: 'input',
     name: 'usage',
-    message: 'How would you use your project?'
+    message: 'What is the usage information of your project?'
   },
   {
     // Contributions
